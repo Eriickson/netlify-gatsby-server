@@ -9,7 +9,7 @@ const app = express();
 const numeroPuerto = process.env.PORT;
 
 app.get("/", (req, res) => {
-  res.send("Plantilla del servidor para Netlify y GatsbyJS");
+  res.send("Plantilla del servidor para Netlify y GatsbyJS para prueba");
 });
 
 const server = new ApolloServer({ typeDefs, resolvers });
