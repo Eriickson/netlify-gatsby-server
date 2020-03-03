@@ -8,7 +8,7 @@ input InputExample {
 }
 scalar JSON
 type Query {
-  obtenerAvisos(where: JSON): [Example]
+  obtenerAvisos: [Example]
 }
  type Mutation {
    crearAviso(input: InputExample) : Example

@@ -2,6 +2,7 @@ import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import { resolvers } from "./data/resolvers";
 import { typeDefs } from "./data/schemas";
+require("./data/db");
 
 const app = express();
 const numeroPuerto = 9000;

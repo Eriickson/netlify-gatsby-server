@@ -2,9 +2,7 @@ import { Aviso } from "../db";
 
 export default {
   Query: {
-    obtenerAvisos: (root, { where }) => {
-      console.log(where);
-
+    obtenerAvisos: () => {
       return Aviso.find();
     }
   },
