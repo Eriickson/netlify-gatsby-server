@@ -7,7 +7,7 @@ const app = express();
 const numeroPuerto = 9000;
 
 app.get("/", (req, res) => {
-  res.send("Plantilla del servidor");
+  res.send("Plantilla del servidor para Netlify y GatsbyJS");
 });
 
 const server = new ApolloServer({ typeDefs, resolvers });
